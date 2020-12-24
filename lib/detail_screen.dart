@@ -8,8 +8,9 @@ class DetailScreen extends StatelessWidget {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
+          Image.asset('images/farm-house.jpg'),
           Container(
-            margin: EdgeInsets.only(top: 80.0),
+            margin: EdgeInsets.only(top: 16.0),
             child: Text(
               'Farm House Lembang',
               textAlign: TextAlign.center,
@@ -55,7 +56,8 @@ class DetailScreen extends StatelessWidget {
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 16.0),
             ),
-          )
+          ),
+          Image.network('https://media-cdn.tripadvisor.com/media/photo-s/0d/7c/59/70/farmhouse-lembang.jpg')
         ],
       ),
     );
