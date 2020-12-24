@@ -33,6 +33,35 @@ class DetailScreen extends StatelessWidget {
                 fontWeight: FontWeight.bold
               ),
             ),
+          ),
+          Container(
+            margin: EdgeInsets.symmetric(vertical: 16.0),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: <Widget>[
+                Column(
+                  children: <Widget>[
+                    Icon(Icons.calendar_today),
+                    SizedBox(height: 8.0,),
+                    Text('Open Everyday')
+                  ],
+                ),
+                Column(
+                  children: <Widget>[
+                    Icon(Icons.av_timer),
+                    SizedBox(height: 8.0,),
+                    Text('09.00-20.00')
+                  ],
+                ),
+                Column(
+                  children: <Widget>[
+                    Icon(Icons.attach_money_rounded),
+                    SizedBox(height: 8.0,),
+                    Text('Rp 25.000')
+                  ],
+                )
+              ],
+            ),
           )
         ],
       ),
