@@ -25,7 +25,7 @@ class DetailScreen extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
           Container(
-            margin: EdgeInsets.only(top: 16.0),
+            margin: EdgeInsets.only(top: 80.0),
             child: Text(
               'Farm House Lembang',
               textAlign: TextAlign.center,
